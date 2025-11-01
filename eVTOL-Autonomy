@@ -1,0 +1,24 @@
+eVTOL-Autonomy/
+│
+├── data/                  # Any datasets your AI needs
+│   ├── sensors/           # Sensor data (simulated or real)
+│   └── weather/           # Weather datasets for simulations
+│
+├── src/                   # All source code
+│   ├── ai_models/         # ML models (training scripts, saved models)
+│   │   ├── train_model.py
+│   │   └── evaluate_model.py
+│   ├── sensors/           # Sensor interface or simulation scripts
+│   │   └── sensor_sim.py
+│   ├── flight_control/    # eVTOL control logic
+│   │   └── autopilot.py
+│   └── utils/             # Helper scripts
+│       └── helpers.py
+│
+├── notebooks/             # Optional: Jupyter notebooks
+│   └── exploration.ipynb
+│
+├── environment.yml        # Conda environment (optional, for Azure ML)
+├── requirements.txt       # Python dependencies
+├── README.md              # Project description
+└── .gitignore             # Files/folders to ignore when pushing to GitHub
