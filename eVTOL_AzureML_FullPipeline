@@ -1,0 +1,22 @@
+eVTOL_AzureML_FullPipeline/
+│
+├── sensors/
+│   ├── weather_sensor.py
+│   ├── gps_sensor.py
+│   └── lidar_sensor.py
+│
+├── ai_model/
+│   ├── train_model.py
+│   ├── evaluate_model.py
+│   └── model_weights/           # This will store trained models
+│
+├── flight_control/
+│   └── autopilot.py
+│
+├── pipeline/
+│   └── run_pipeline.py
+│
+├── main.py
+├── requirements.txt
+├── README.md
+└── .gitignore
